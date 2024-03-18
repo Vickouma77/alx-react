@@ -16,7 +16,7 @@ function App() {
       <hr />
 
       <footer className="App-footer">
-        <p>Copyright 2020 - holberton School</p>
+        <p>Copyright 2020 - holberton School</p> 
       </footer>
     </div>
     
