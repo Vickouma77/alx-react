@@ -24,9 +24,46 @@ hr {
 }
 
 .App-body p {
-  margin: 1.7rem 0 25rem 1rem;
+  /* margin: 1.7rem 0 25rem 1rem; */
   font-family: sans-serif;
   font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0;
+}
+
+form input {
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+  border: 1px solid #f32f49;
+  border-radius: 5px;
+
+}
+
+form label {
+  margin: 0.5rem 0;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-style: italic;
+
+}
+
+form button {
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+  border: 1px solid #f32f49;
+  border-radius: 5px;
+  background-color: #f32f49;
+  color: #fff;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 .App-footer {
